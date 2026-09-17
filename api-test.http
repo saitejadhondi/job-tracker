@@ -1,0 +1,12 @@
+POST http://localhost:8080/api/applications
+Content-Type: application/json
+
+{
+  "companyName": "Amazon",
+  "jobTitle": "Java Backend Developer",
+  "jobUrl": "https://amazon.jobs",
+  "location": "Bangalore",
+  "status": "APPLIED",
+  "applicationDate": "2026-09-17",
+  "notes": "Applied through careers portal"
+}
